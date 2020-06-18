@@ -1,0 +1,12 @@
+● タイトル名：クマクマ大作戦
+● 概要：Joy-Conで遊ぶミニーゲーム集
+● 制作人数と時間：5人x45日
+● 開発環境：Unity2018.4.23f1 / Visual Studio 2019
+● 注意事項：右Joy-conで遊ぶ /  JoyconLib利用(https://github.com/Looking-Glass/JoyconLib)
+● 担当箇所：
+	○ プログラミング：「Scripts」フォルダ内、以下を除く
+		├ JoyCon API (HIDapi.dll / Joycon.cs / JoyConInputManager.cs)
+		├ Demo映像再生機能 (PlayDemoVideo.cs)
+		└ スクリーンショット機能(ScreenShot.cs)
+	○ カメラセットアップ / Timelineセットアップ /
+	　チュートリアルシーンとカットシーン組み込み

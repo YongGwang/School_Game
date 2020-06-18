@@ -1,0 +1,11 @@
+Level flow:
+	MainMenu(Title)->BalloonGameTut->BalloonGame->PremarathonGameCutScene->MarathonGameTut->MarathonGame
+			->GoodEnding
+	->result
+			->BadEnding
+			
+Notice:
+	UnityObj should not use "obj == null" or "obj ??" or "obj?."
+	https://stackoverflow.com/questions/56875706/how-am-i-misusing-the-null-coalescing-operator-is-this-evaluating-null-correc
+	
+	Obj that reactionable with player should use interface "IReactionable"
